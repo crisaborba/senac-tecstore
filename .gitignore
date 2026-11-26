@@ -1,0 +1,23 @@
+# Credenciais
+.env
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores / IDEs
+.vscode/
+.idea/
+*.swp
+
+# Temporários e logs
+*.log
+*.tmp
+*.bak
+
+# Imagens enviadas pelos administradores
+uploads/*
+!uploads/.gitkeep
+
+!uploads/.htaccess

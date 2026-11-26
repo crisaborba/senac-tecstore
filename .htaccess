@@ -1,0 +1,9 @@
+# Proteções do Apache (XAMPP)
+
+# Não lista o conteúdo de pastas
+Options -Indexes
+
+# Bloqueia acesso direto a arquivos sensíveis
+<FilesMatch "^(\.env.*|\.git.*|.*\.sql|README\.md)$">
+    Require all denied
+</FilesMatch>
